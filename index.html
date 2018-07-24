@@ -10,9 +10,32 @@
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
 <meta name="theme-color" content="#222">
 
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
 
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
 
 
 
@@ -53,16 +76,10 @@
 <link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/I.png?v=5.1.3">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.3">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.3">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
 
 
 
@@ -234,16 +251,6 @@
           </a>
         </li>
       
-        
-        <li class="menu-item menu-item-schedule">
-          <a href="/schedule/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
-            
-            日程表
-          </a>
-        </li>
-      
 
       
     </ul>
@@ -263,151 +270,6 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/24/重回Hexo/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Ivan">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="消·愁">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/24/重回Hexo/" itemprop="url">重回Hexo</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-24T21:21:42+08:00">
-                2018-07-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <blockquote>
-<p>从上次返厂维修之后，由于之前装在了C盘没有备份，所以之前的数据都没有了……（哭哭），突然想装回来是因为突然觉得考研娱乐项——写日更博客，吐槽+总结，何乐而不为~~</p>
-<p>而且可以重新捡起Markdown……一举两得。</p>
-</blockquote>
-<p>最近重新用的东西挺多的，之前下的软件notion也“重新开张”了，模块化的结构很方便啊。</p>
-<hr>
-<p>列了一下最近每日学习任务。</p>
-<ul>
-<li><p>[ ] 数学做题2h</p>
-</li>
-<li><p>[ ] 数学跟课1-2节 → 2-4h</p>
-</li>
-<li><p>[ ] 英语单词1h</p>
-</li>
-<li><p>[ ] 政治精讲精练+1000题 0.5h</p>
-</li>
-<li><p>[ ] 做+整理阅读1.5h</p>
-</li>
-<li><p>[ ] 数据结构看+做题1-2h（20P）</p>
-<pre><code>​
-</code></pre></li>
-</ul>
-<hr>
-<p>顺便写一下今日总结吧~~0724 北京传说中的台风登陆下了仨小时就阳光明媚了……白期待了emmm但愿我一会回宿舍不要下雨hhh</p>
-<p>今天听了线性代数向量习题课……全蒙状态，晚上回去好好整理一下高数线代，拎出来题型解法的总结，以后记笔记也不要抄板书了就还是快速重点的来，还有两节政治基础课，还是准备先把基础课过一遍，因为除了马原好像并不多。明天要早点起床，不然一天浪费的时间太多了。。。。</p>
-<p>ok，考验之旅从此开始~~但愿坚持下来，每天写一点，考上之后回来还愿吧hhh</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
     
       
 
@@ -511,8 +373,13 @@
     
     
 
+	<div>
+      
+	</div>
+	
     
 
+	
     
 
     
@@ -583,7 +450,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
